@@ -21,7 +21,7 @@
   }
   
   main {
-    min-height: 100vh;
+    min-height: 90vh;
     max-width: min(100vw, 600px);
     display: flex;
     justify-content: center;
@@ -153,12 +153,11 @@
     color: #ff7a7a;
     font-weight: bolder;
   }
-  
-  footer {
-    text-align: center;
-    color: white;
-    font-size: smaller;
+  .attribution {
+    font-size: 14px; 
+    text-align: center; 
   }
-  footer a {
-    color: inherit;
-  }
+  .attribution a { 
+    color: hsl(228, 45%, 44%); 
+    text-decoration: none;
+ }
